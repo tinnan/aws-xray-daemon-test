@@ -11,6 +11,6 @@ public class WebConfig {
 
     @Bean
     public Filter TracingFilter() {
-        return new AWSXRayServletFilter("Scorekeep");
+        return new AWSXRayServletFilter("App-Test-Xray-01");
     }
 }
