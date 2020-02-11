@@ -1,10 +1,12 @@
 package me.tinnan.aws.xraydaemontest.feature01;
 
+import com.amazonaws.xray.spring.aop.XRayEnabled;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 
 @Service
+@XRayEnabled
 public class ProductService {
 
     public Product getProductById(int id) {
