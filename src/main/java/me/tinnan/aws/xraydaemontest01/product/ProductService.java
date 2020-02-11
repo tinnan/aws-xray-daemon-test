@@ -1,4 +1,4 @@
-package me.tinnan.aws.xraydaemontest.product;
+package me.tinnan.aws.xraydaemontest01.product;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

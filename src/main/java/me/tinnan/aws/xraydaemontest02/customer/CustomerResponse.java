@@ -1,4 +1,4 @@
-package me.tinnan.aws.xraydaemontest.customer;
+package me.tinnan.aws.xraydaemontest02.customer;
 
 import lombok.Data;
 

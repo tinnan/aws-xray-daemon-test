@@ -1,4 +1,4 @@
-package me.tinnan.aws.xraydaemontest.config;
+package me.tinnan.aws.xraydaemontest02.config;
 
 import com.amazonaws.xray.javax.servlet.AWSXRayServletFilter;
 import org.springframework.context.annotation.Bean;
@@ -11,6 +11,6 @@ public class WebConfig {
 
     @Bean
     public Filter TracingFilter() {
-        return new AWSXRayServletFilter("App-Test-Xray-01");
+        return new AWSXRayServletFilter("App-Test-Xray-02");
     }
 }

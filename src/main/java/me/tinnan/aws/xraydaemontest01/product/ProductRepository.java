@@ -1,8 +1,6 @@
-package me.tinnan.aws.xraydaemontest.product;
+package me.tinnan.aws.xraydaemontest01.product;
 
 import org.springframework.data.repository.CrudRepository;
-
-import javax.persistence.Table;
 
 public interface ProductRepository extends CrudRepository<Product, Integer> {
 
